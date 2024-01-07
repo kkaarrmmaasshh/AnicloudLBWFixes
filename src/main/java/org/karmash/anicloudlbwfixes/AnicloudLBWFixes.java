@@ -28,7 +28,7 @@ public final class AnicloudLBWFixes extends JavaPlugin implements Listener {
     public void onMove(PlayerMoveEvent e){
         if (e.getTo().getY() >= 100
                 && (e.getTo().getY() - e.getFrom().getY() > 0)
-                && !(e.getPlayer().getGameMode().equals(GameMode.SPECTATOR))){
+                &! (e.getPlayer().getGameMode().equals(GameMode.SPECTATOR))){
             Player player = e.getPlayer();
             Location location = player.getLocation();
             location.setY(location.getY()-10);
