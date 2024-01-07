@@ -1,0 +1,4 @@
+name: AnicloudLBWFixes
+version: '${version}'
+main: org.karmash.anicloudlbwfixes.AnicloudLBWFixes
+api-version: '1.20'
